@@ -1,0 +1,81 @@
+<html lang="en" >
+<head>
+  <title>Object counter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Exo&amp;display=swap'><link rel="stylesheet" href="./obj.css">
+
+</head>
+<body>
+
+<link rel="stylesheet" type="text/css" href="obj.css">
+
+
+<div class="tabs">
+<ul class="topnav" id="myTopnav">
+  <li><a id="home-nav" class="active" href="https://deeplearnai.ml/">Home</a><a id="home-nav" class="active" href="about">About</a></li>
+  <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()"></a></li>
+  
+</ul><br>
+<div class="container-1">
+  <div class="box-1">
+  	<p><b>This is a demonstration how machine learning algorithms are used to detect objects.With help of Darknet yolo object detection ,here is a webapp which can able to detect/count objects of several kinds. This model is customly trained and a custom model is created which contains all detected assets. Further, a API is been developed which can be used on any platforms to scan contents before uploading and can be used to block if any sensitive contents present in the image.</b></p>
+
+  </div>
+  <div class="box-2">
+
+        <div id="js-gallery" class="gallery">
+
+    <!--Gallery Hero-->
+    <div class="gallery__hero">
+    	<p>Here are some images to demonstrate the working of this model.<br>
+    Click on a image to see the results</p>
+     
+
+      <img src="https://2.bp.blogspot.com/-pzXQcrCtTAA/Xut4V8fukNI/AAAAAAAAAuA/m4lc011uhkcl21Ut28yquoDekMeN3bNEQCLcBGAsYHQ/s1600/Lg08TJIw.jpeg">
+    </div>
+
+    <!--Gallery Hero-->
+
+    <!--Gallery Thumbs-->
+    <div class="gallery__thumbs">
+        
+        <a href="https://2.bp.blogspot.com/-pzXQcrCtTAA/Xut4V8fukNI/AAAAAAAAAuA/m4lc011uhkcl21Ut28yquoDekMeN3bNEQCLcBGAsYHQ/s1600/Lg08TJIw.jpeg" data-gallery="thumb">
+          <img src="https://2.bp.blogspot.com/-pzXQcrCtTAA/Xut4V8fukNI/AAAAAAAAAuA/m4lc011uhkcl21Ut28yquoDekMeN3bNEQCLcBGAsYHQ/s1600/Lg08TJIw.jpeg">
+        </a>
+        <a href="https://3.bp.blogspot.com/-cSkQgy9ax6k/Xut4V2OIeQI/AAAAAAAAAt4/IUnL4vKTn_EAlSoK_wGqN_nqrJi0gA4sgCLcBGAsYHQ/s1600/PW40Nbpg.jpeg" data-gallery="thumb" class="is-active">
+          <img src="https://3.bp.blogspot.com/-cSkQgy9ax6k/Xut4V2OIeQI/AAAAAAAAAt4/IUnL4vKTn_EAlSoK_wGqN_nqrJi0gA4sgCLcBGAsYHQ/s1600/PW40Nbpg.jpeg">
+        </a>
+        <a href="https://1.bp.blogspot.com/-Fgwn1n_wec8/Xut4V23FxyI/AAAAAAAAAt8/O2AEv2l-nbYpFc9hfVIfQeVVskxeS0EPgCLcBGAsYHQ/s1600/U3TRvViQ.jpeg" data-gallery="thumb">
+          <img src="https://1.bp.blogspot.com/-Fgwn1n_wec8/Xut4V23FxyI/AAAAAAAAAt8/O2AEv2l-nbYpFc9hfVIfQeVVskxeS0EPgCLcBGAsYHQ/s1600/U3TRvViQ.jpeg">
+        </a>
+        <a href="https://1.bp.blogspot.com/-w2gKrpyf6oo/Xut4Wh_WqMI/AAAAAAAAAuE/NcIBxEBGS2UJdGqMwvG7aE2k2YIKLb3qwCLcBGAsYHQ/s1600/qio90yCw.jpeg" data-gallery="thumb">
+          <img src="https://1.bp.blogspot.com/-w2gKrpyf6oo/Xut4Wh_WqMI/AAAAAAAAAuE/NcIBxEBGS2UJdGqMwvG7aE2k2YIKLb3qwCLcBGAsYHQ/s1600/qio90yCw.jpeg#">
+        </a>
+
+  	<p id="demo"></p> 
+    </div>
+    <!--Gallery Thumbs-->
+
+  </div><!--.gallery-->
+  </div>
+
+
+  <div class="box-3">
+    <center><form id="formElem">
+    	<p>Here you can upload any image file, the algorithm detects the
+    	image and gives you the result</p>
+<img id="blah" src="https://designshack.net/wp-content/uploads/placeholder-image.png" alt="your image" class="img1" /><br>
+  <div class="upload-btn-wrapper">
+  <button class="btn">Upload a image</button>
+  <input type="file" name="file" onchange="readURL(this);"/></div><br>
+  
+  <input button class="button" type="submit" />
+  <div hidden id="spinner"></div>
+</form></center>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./obj.js"></script>
+<p id="trail"></p> 
+  </div>
+</div>
+
+</body>
+</html>
+  
