@@ -120,7 +120,7 @@ h2 {
 
 
 .example-2 .wrapper {
-  background: url(https://instaqueenies.ml/images/cutesofsalem.jpeg) center/cover no-repeat;
+  background: url() center/cover no-repeat;
 }
 .example-2 .wrapper:hover .menu-content span {
   -webkit-transform: translate(-50%, -10px);
@@ -328,7 +328,7 @@ h2 {
 }
 
 .example-4 .wrapper {
-  background: url(https://instaqueenies.ml/images/beautiesoftamilnadu.jpeg) center/cover no-repeat;
+  background: url() center/cover no-repeat;
 }
 }
 .example-4 .wrapper:hover .menu-content span {
