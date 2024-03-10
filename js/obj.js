@@ -22,7 +22,7 @@ formElem.onsubmit = async (e) => {
   let result = await response.json();
   spinner.setAttribute("hidden", "");
 
-  var data = result.filename;
+  var data = result.scanResult;
   //document.getElementById("trail").innerHTML = '<center><img src='+data+''+' height='+'"80"'+'width='+'"58"'+'></center>';
   document.getElementById("trail").innerHTML =
     "<center><b>" + data + "<b></center>";
@@ -101,7 +101,7 @@ var App = (function () {
         }),
         function (data, status) {
           var a = JSON.parse(data);
-          var result = a["filename"];
+          var result = a["scanResult"];
           document.getElementById("demo").innerHTML =
             "<center><b>" + result + "<b><center>";
 
