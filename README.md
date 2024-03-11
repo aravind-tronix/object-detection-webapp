@@ -18,5 +18,7 @@ Welcome to our Oldschool WebApp! This is a simple web application built using ol
 2. .css: The CSS file for styling the web pages.
 3. .js: The JavaScript file for adding interactivity to the web pages.
 
+## APP
+The app is love at https://dev.aravind.one/
 
 Enjoy the nostalgia of old-school web development! 😎🚀
