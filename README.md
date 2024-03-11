@@ -19,6 +19,6 @@ Welcome to our Oldschool WebApp! This is a simple web application built using ol
 3. .js: The JavaScript file for adding interactivity to the web pages.
 
 ## APP
-The app is love at https://dev.aravind.one/
+The app is live at https://dev.aravind.one/
 
 Enjoy the nostalgia of old-school web development! 😎🚀
